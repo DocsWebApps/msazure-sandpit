@@ -6,7 +6,7 @@
     margin: 0px;
     padding-top: 40px;
     height: 550px;
-    background-image: url(../img/azure.jpg);
+    background-image: url(https://docsteststorage1.blob.core.windows.net/public-images/azure.jpg);
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,14 +14,14 @@
     text-align: left;
 }
 
-#home_page_controller #home-navbar {
-    background-color: #EBE7E4;
+#home_page_controller #home_navbar {
+    background-color: #99C6F0;
     link: black;
 }
 
 #home_page_controller #copyright-section {
     width: 100%;
-    background-color: #EBE7E4;
+    background-color: #48B2CA;
     link: black;
     height: 100px;
     text-align: center;
