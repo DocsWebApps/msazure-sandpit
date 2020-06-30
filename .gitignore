@@ -4,6 +4,7 @@ target/
 !**/src/main/**
 !**/src/test/**
 environment.cmd
+/src/main/resources/my.azureauth
 
 ### STS ###
 .apt_generated
