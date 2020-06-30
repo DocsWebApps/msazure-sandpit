@@ -34,27 +34,54 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
+        <!-- Specific Azure Storage Dependencies -->
         <dependency>
-            <groupId>com.microsoft.azure</groupId>
-            <artifactId>azure-active-directory-spring-boot-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.microsoft.azure</groupId>
-            <artifactId>azure-keyvault-secrets-spring-boot-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.microsoft.azure</groupId>
-            <artifactId>azure-spring-boot-starter</artifactId>
+            <groupId>com.azure</groupId>
+            <artifactId>azure-storage-blob</artifactId>
+            <version>12.4.0</version>
         </dependency>
         <dependency>
             <groupId>com.microsoft.azure</groupId>
             <artifactId>azure-storage-spring-boot-starter</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.okta.spring</groupId>
-            <artifactId>okta-spring-boot-starter</artifactId>
-            <version>1.4.0</version>
-        </dependency>
+        <!-- End of Specific Azure Dependencies -->
+
+        <!-- Specific Azure Dependencies -->
+<!--        <dependency>-->
+<!--            <groupId>com.azure</groupId>-->
+<!--            <artifactId>azure-storage-queue</artifactId>-->
+<!--            <version>12.3.0</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.azure</groupId>-->
+<!--            <artifactId>azure-storage-file-share</artifactId>-->
+<!--            <version>12.2.0</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.azure</groupId>-->
+<!--            <artifactId>azure-storage-file-datalake</artifactId>-->
+<!--            <version>12.0.0-preview.6</version>-->
+<!--        </dependency>-->
+        <!-- Specific Azure Dependencies -->
+
+<!--        <dependency>-->
+<!--            <groupId>com.microsoft.azure</groupId>-->
+<!--            <artifactId>azure-active-directory-spring-boot-starter</artifactId>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.microsoft.azure</groupId>-->
+<!--            <artifactId>azure-keyvault-secrets-spring-boot-starter</artifactId>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.microsoft.azure</groupId>-->
+<!--            <artifactId>azure-spring-boot-starter</artifactId>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.okta.spring</groupId>-->
+<!--            <artifactId>okta-spring-boot-starter</artifactId>-->
+<!--            <version>1.4.0</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
