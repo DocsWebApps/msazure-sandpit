@@ -20,15 +20,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers(CONTAINER_LOCATION_URL_V1+"/**").permitAll()
 //                .anyRequest().authenticated()
                 .anyRequest().permitAll()
-                .and().cors()
-                .and().csrf().disable();
+                .and().cors().and().csrf().disable();
     }
-
-//    @Override
-//    protected void configure(HttpSecurity http) throws Exception {
-//        http.authorizeRequests()
-//            .anyRequest().permitAll()
-//            .and().oauth2Client()
-//            .and().oauth2Login();
-//    }
 }
